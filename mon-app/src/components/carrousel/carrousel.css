@@ -1,0 +1,36 @@
+.bannerDiv{
+  
+}
+
+.banner{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+
+.bannerTitle{
+  float: center;
+}
+
+.test1{
+  z-index:1
+}
+
+.test2{
+  
+  color: black;
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  width: 100%;
+  z-index: 2;
+  font-size: 300%;
+}
+
+.bannerText{
+    width: 600px;
+    text-align: center;
+    background-color: #ffffff96;
+    margin: auto;
+}

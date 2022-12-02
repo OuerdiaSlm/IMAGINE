@@ -1,0 +1,26 @@
+.foodPictures{
+  width: 350px;
+  box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+
+.foodPictures:hover{
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
+}
+
+
+.globalSectionGallery, .globalSectionMenu{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.menuPictures, .dissertPictures{
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.menuCardImage{
+  width: -webkit-fill-available;
+}

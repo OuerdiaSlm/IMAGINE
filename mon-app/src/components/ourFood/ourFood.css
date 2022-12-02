@@ -1,0 +1,28 @@
+.global-div-ourFood{
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ourFood-text{
+  width: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.global-ourFood{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.button-to-gallery{
+  color: white;
+  width: 140px;
+  height: 50px;
+  background-color: #ff3343;
+  border: #ff3343;
+  font-size: larger;
+}
