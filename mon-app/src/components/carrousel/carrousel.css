@@ -1,11 +1,13 @@
 .bannerDiv{
-  
+  height: 550px;
 }
 
 .banner{
   width: 100%;
-  height: 500px;
   object-fit: cover;
+  position: fixed;
+  z-index: -1;
+  top: -150px;
 }
 
 
@@ -29,8 +31,21 @@
 }
 
 .bannerText{
-    width: 600px;
+    width: 30%;
     text-align: center;
-    background-color: #ffffff96;
+    background-color: #00000061;
     margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.bannerLogo{
+  width: 25%;
+  text-align: center;
+  background-color: #00000061;
+  margin: auto;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
 }

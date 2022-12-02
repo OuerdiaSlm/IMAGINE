@@ -15,7 +15,10 @@
 
 .global-ourFood{
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 330px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
 }
 
 .button-to-gallery{
