@@ -15,7 +15,6 @@
 
 .global-ourFood{
   margin-top: 80px;
-  margin-bottom: 330px;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: white;
@@ -28,4 +27,25 @@
   background-color: #ff3343;
   border: #ff3343;
   font-size: larger;
+}
+
+.lieu{
+  width: 85%;
+  height: 330px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.lieu h3{
+  width: 30%;
+    text-align: center;
+    background-color: #00000061;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 300%;
+    font-weight: normal;
 }

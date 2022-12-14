@@ -10,6 +10,8 @@ import './ourFood.css';
 
   function OurFood() {
     return (
+      <>
+      
       <section className="global-ourFood">
         <div className="global-div-ourFood">
             <div className="ourFood-image">
@@ -34,6 +36,10 @@ import './ourFood.css';
           </div>
         </div>
       </section>
+      <div className="lieu">
+        <h3>UN LIEU CHALEUREUX</h3>
+      </div>
+      </>
     )
   }
   export default OurFood;

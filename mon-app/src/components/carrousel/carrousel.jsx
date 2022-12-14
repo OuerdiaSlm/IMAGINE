@@ -8,27 +8,8 @@ import amechiche from '../../assets/logo.png';
 import { Carousel } from 'react-responsive-carousel';
 
   function Carrousel (){
-
+    
     let [bannerWeb,setBanner]=useState(banner)
-
-    let slide=['../../assets/logo.png', "../../assets/plante.png", "../../assets/entree.png"]
-
-    let imageSlide;
-
-    let numero=0
-    function ChangeSlide(sens) {
-      numero = numero + sens;
-
-      if (numero < 0){
-        numero=slide.length - 1
-          
-        }
-      if (numero > slide.length - 1){
-        numero=0
-        }
-        imageSlide=slide[numero]
-        console.log(imageSlide)
-  }
 
   window.onscroll = ()=>{
     if (document.body.scrollTop > 580 || document.documentElement.scrollTop > 580) {
@@ -42,10 +23,10 @@ import { Carousel } from 'react-responsive-carousel';
       return (
             <section className="bannerDiv">      
               <div className="test1">
-                  <img src={bannerWeb} className="banner" alt="La forêt de peupliers"/>
+                  <img src={bannerWeb} className="banner" alt="banner"/>
               </div>
               <div className="test2">
-                  <p className="bannerText">BIENVENU CHEZ IMAGINE</p>
+                  <p className="bannerText">BIENVENUE CHEZ IMAGINE</p>
               </div> 
             </section>
       );
